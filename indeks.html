@@ -1,0 +1,1179 @@
+
+Чат с Gemini
+O‘zbek tilida zamonaviy va professional prezentatsiya tayyorla. Mavzu: “Avtosalon va avtomobillar”.
+
+Prezentatsiya 10 ta slayddan iborat bo‘lsin. Har bir slaydda qisqa, tushunarli va qiziqarli ma’lumotlar bo‘lsin.
+
+
+
+Titul slayd — “Avtosalon” mavzusi, chiroyli zamonaviy avtomobil rasmi.
+
+Avtosalon nima? — avtosalon tushunchasi va uning asosiy vazifalari.
+
+Avtosalonning asosiy xizmatlari — avtomobil sotish, maslahat berish, test-drayv, kredit va servis xizmatlari.
+
+Avtomobil turlari — sedan, krossover, SUV, hatchback va minivenlar haqida qisqacha ma’lumot.
+
+Mashhur avtomobil brendlari — Chevrolet, Mercedes-Benz, BMW, BYD, Toyota va Kia haqida qisqacha.
+
+Avtomobil tanlash — xaridor mashina olayotganda nimalarga e’tibor berishi kerakligi.
+
+Yangi va ishlatilgan avtomobillar — ularning afzalliklari va kamchiliklarini taqqoslash.
+
+Zamonaviy texnologiyalar — elektromobillar, gibrid avtomobillar, xavfsizlik tizimlari va multimedia.
+
+Avtosalonda mijozlarga xizmat ko‘rsatish — sotuvchi va xaridor o‘rtasidagi muloqot, test-drayv va hujjatlashtirish.
+
+Xulosa — avtosalonning avtomobil tanlash va sotib olishdagi ahamiyati.
+
+
+
+Dizayn zamonaviy, avtomobil mavzusiga mos, premium va chiroyli bo‘lsin. Har bir slaydda avtomobilga oid sifatli rasmlar, ikonalar va infografikalar ishlat. Matn juda ko‘p bo‘lmasin. Ranglar qora, oq va kulrang uslubida bo‘lsin. Barcha matnlar o‘zbek tilida va imlo xatolarisiz yozilsin
+
+I will now generate the presentation slides on "Avtosalon va avtomobillar".
+
+Avtosalon va Avtomobillar
+25 авг., 00:23
+Sizning "Avtosalon va avtomobillar" mavzusidagi 10 ta slayddan iborat zamonaviy va professional taqdimotingiz tayyor bo‘ldi! Taqdimotni ko‘rib chiqishingiz va kerak bo‘lsa o‘zgartirishlar kiritishingiz mumkin.
+
+codi qani shuni tailwind.cssga
+
+Mana siz uchun Tailwind CSS va HTML asosida tayyorlangan 10 ta slayddan iborat zamonaviy va premium prezentatsiya kodi.
+
+Dizayn qora (dark mode), oq va kulrang (monoxrom premium uslubda) tayyorlangan. Kodda Tailwind CSS CDN ulangan, shuning uchun faylni shunchaki .html formatida saqlab, brauzerda ochishingiz kifoya.
+
+HTML
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avtosalon va Avtomobillar - Prezentatsiya</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 flex flex-col items-center py-10 space-y-16">
+
+  <!-- SLAYD 1: Titul Slayd -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl overflow-hidden relative flex flex-col justify-between p-12 shadow-2xl">
+    <div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=1200');"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/60 to-transparent"></div>
+    
+    <div class="relative z-10 flex justify-between items-center">
+      <span class="text-xs uppercase tracking-widest text-neutral-400 border border-neutral-700 px-3 py-1 rounded-full">Prezentatsiya</span>
+      <span class="text-xs text-neutral-500">01 / 10</span>
+    </div>
+
+    <div class="relative z-10 space-y-4">
+      <h1 class="text-5xl font-extrabold tracking-tight text-white leading-tight">
+        AVTOSALON <br><span class="text-neutral-400">& AVTOMOBILLAR</span>
+      </h1>
+      <p class="text-neutral-400 text-lg max-w-md">Zamonaviy avtomobil sanoati, xizmatlar va tanlov mezonlari bo‘yicha to‘liq qo‘llanma.</p>
+    </div>
+
+    <div class="relative z-10 flex justify-between items-end border-t border-neutral-800 pt-4 text-xs text-neutral-500">
+      <span>Premium Auto Gallery</span>
+      <span>2026-yil</span>
+    </div>
+  </section>
+
+  <!-- SLAYD 2: Avtosalon nima? -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl relative">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Avtosalon nima?</h2>
+      <span class="text-xs text-neutral-500">02 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-2 gap-8 items-center">
+      <div class="space-y-4">
+        <p class="text-neutral-300 leading-relaxed text-sm">
+          <strong class="text-white">Avtosalon</strong> — bu shunchaki avtomobil sotish joyi emas, balki mijoz va ishlab chiqaruvchi o‘rtasidagi rasmiy ko‘prikdir.
+        </p>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3">
+            <i data-lucide="check-circle" class="text-neutral-400 w-5 h-5 mt-0.5"></i>
+            <p class="text-xs text-neutral-400"><strong class="text-white">Rasmiylik:</strong> Ishlab chiqaruvchi kafolati va sertifikatlangan xizmat ko‘rsatish.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <i data-lucide="check-circle" class="text-neutral-400 w-5 h-5 mt-0.5"></i>
+            <p class="text-xs text-neutral-400"><strong class="text-white">Qulaylik:</strong> Bir joyning o‘zida tanlash, sinash va rasmiylashtirish.</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-xl overflow-hidden border border-neutral-800">
+        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=800" alt="Avtosalon" class="w-full h-56 object-cover grayscale contrast-125">
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Asosiy vazifa: Mijozga ishonchli va xavfsiz xarid muhitini yaratish.</div>
+  </section>
+
+  <!-- SLAYD 3: Asosiy Xizmatlar -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Avtosalonning Asosiy Xizmatlari</h2>
+      <span class="text-xs text-neutral-500">03 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4">
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-3">
+        <i data-lucide="shopping-bag" class="w-8 h-8 text-white"></i>
+        <h3 class="font-semibold text-white text-sm">Avtomobil sotish</h3>
+        <p class="text-xs text-neutral-400">Yangi va kafolatlangan avtomobillarni taqdim etish.</p>
+      </div>
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-3">
+        <i data-lucide="steering-wheel" class="w-8 h-8 text-white"></i>
+        <h3 class="font-semibold text-white text-sm">Test-drayv</h3>
+        <p class="text-xs text-neutral-400">Harid qilishdan oldin amalda sinab ko‘rish imkoniyati.</p>
+      </div>
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-3">
+        <i data-lucide="credit-card" class="w-8 h-8 text-white"></i>
+        <h3 class="font-semibold text-white text-sm">Kredit va Lizing</h3>
+        <p class="text-xs text-neutral-400">Moslashuvchan moliyaviy shartlar va sug‘urtalash.</p>
+      </div>
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-3">
+        <i data-lucide="wrench" class="w-8 h-8 text-white"></i>
+        <h3 class="font-semibold text-white text-sm">Servis va Xizmat</h3>
+        <p class="text-xs text-neutral-400">Ehtiyot qismlar, texnik ko‘rik va kafolatli ta'mirlash.</p>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Barcha xizmatlar bir joyda — 360° xizmat ko‘rsatish tizimi.</div>
+  </section>
+
+  <!-- SLAYD 4: Avtomobil Turlari -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Avtomobil Kuzov Turlari</h2>
+      <span class="text-xs text-neutral-500">04 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 text-xs">
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <span class="text-white font-bold text-sm block">Sedan</span>
+        <p class="text-neutral-400">Klassik, 4 eshikli, shahar va oilaviy haydash uchun qulay kuzov.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <span class="text-white font-bold text-sm block">Krossover</span>
+        <p class="text-neutral-400">Yo‘l klirensi baland, universal va zamonaviy shahar avtomobili.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <span class="text-white font-bold text-sm block">SUV (Yo‘ltanlamas)</span>
+        <p class="text-neutral-400">Yuqori o‘tuvchanlik, to‘liq tortish (4x4) va baquvvat karkas.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <span class="text-white font-bold text-sm block">Hatchback</span>
+        <p class="text-neutral-400">Ixcham, orqa eshigi yuqoriga ochiladigan, shahar tirbandligi uchun ideal.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <span class="text-white font-bold text-sm block">Miniven</span>
+        <p class="text-neutral-400">Katta oilalar va uzoq masofali guruhli safarlar uchun sig‘imli kuzov.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2 flex items-center justify-center">
+        <i data-lucide="car" class="w-10 h-10 text-neutral-600"></i>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Ehtiyoj va turmush tarziga qarab to‘g‘ri kuzov turini tanlash muhim.</div>
+  </section>
+
+  <!-- SLAYD 5: Mashhur Brendlar -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Mashhur Avtomobil Brendlari</h2>
+      <span class="text-xs text-neutral-500">05 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-3 gap-6">
+      <div class="border border-neutral-800 p-4 rounded-xl bg-neutral-950/50">
+        <h3 class="text-white font-semibold">Chevrolet</h3>
+        <p class="text-xs text-neutral-400 mt-1">O‘zbekistonda eng ommabop va hamyonbop ommaviy brend.</p>
+      </div>
+      <div class="border border-neutral-800 p-4 rounded-xl bg-neutral-950/50">
+        <h3 class="text-white font-semibold">BYD</h3>
+        <p class="text-xs text-neutral-400 mt-1">Yangi energiya va elektromobillar bo‘yicha dunyo yetakchisi.</p>
+      </div>
+      <div class="border border-neutral-800 p-4 rounded-xl bg-neutral-950/50">
+        <h3 class="text-white font-semibold">Toyota</h3>
+        <p class="text-xs text-neutral-400 mt-1">Afsonaviy ishonchlilik va yuqori qayta sotish qiymati.</p>
+      </div>
+      <div class="border border-neutral-800 p-4 rounded-xl bg-neutral-950/50">
+        <h3 class="text-white font-semibold">Mercedes-Benz</h3>
+        <p class="text-xs text-neutral-400 mt-1">Premium lyuks, qulaylik va ilg‘or texnologiyalar ramzi.</p>
+      </div>
+      <div class="border border-neutral-800 p-4 rounded-xl bg-neutral-950/50">
+        <h3 class="text-white font-semibold">BMW</h3>
+        <p class="text-xs text-neutral-400 mt-1">Haydash zavqi, dinamika va sportcha xarakter.</p>
+      </div>
+      <div class="border border-neutral-800 p-4 rounded-xl bg-neutral-950/50">
+        <h3 class="text-white font-semibold">Kia</h3>
+        <p class="text-xs text-neutral-400 mt-1">Zamonaviy dizayn, boy komplektatsiya va kafolat.</p>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Bozor har bir segment uchun xilma-xil tanlovlarni taklif etadi.</div>
+  </section>
+
+  <!-- SLAYD 6: Avtomobil Tanlash -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Avtomobil Tanlash Mezonlari</h2>
+      <span class="text-xs text-neutral-500">06 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-2 gap-8 items-center">
+      <div class="space-y-4">
+        <div class="flex items-start gap-4">
+          <div class="bg-neutral-800 p-2 rounded-lg text-white font-bold">01</div>
+          <div>
+            <h3 class="text-sm font-semibold text-white">Bujet va xarajatlar</h3>
+            <p class="text-xs text-neutral-400">Faqat xarid narxi emas, balki yonilg‘i, sug‘urta va servis xarajatlari.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="bg-neutral-800 p-2 rounded-lg text-white font-bold">02</div>
+          <div>
+            <h3 class="text-sm font-semibold text-white">Foydalanish maqsadi</h3>
+            <p class="text-xs text-neutral-400">Shahar ichida qatnash, shaharlararo safarlar yoki yuk tashish.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <div class="bg-neutral-800 p-2 rounded-lg text-white font-bold">03</div>
+          <div>
+            <h3 class="text-sm font-semibold text-white">Xavfsizlik va Texnologiya</h3>
+            <p class="text-xs text-neutral-400">Yostiqchalar soni, tormoz tizimlari va assistentlar mavjudligi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-neutral-950 p-6 rounded-xl border border-neutral-800 text-center space-y-3">
+        <i data-lucide="shield-check" class="w-12 h-12 text-white mx-auto"></i>
+        <p class="text-xs text-neutral-300">"To‘g‘ri tanlangan avtomobil — bu xavfsizlik va moliyaviy barqarorlik garovidir."</p>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Har bir omilni puxta tahlil qilish tavsiya etiladi.</div>
+  </section>
+
+  <!-- SLAYD 7: Yangi va Ishlatilgan -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Yangi vs Ishlatilgan Avtomobil</h2>
+      <span class="text-xs text-neutral-500">07 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-2 gap-6 text-xs">
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-3">
+        <h3 class="text-white font-bold text-sm uppercase tracking-wider border-b border-neutral-800 pb-2">Yangi Avtomobil</h3>
+        <ul class="space-y-2 text-neutral-400">
+          <li class="flex items-center gap-2"><span class="text-green-500">+</span> Rasmiy zavod kafolati</li>
+          <li class="flex items-center gap-2"><span class="text-green-500">+</span> Nol bosib o‘tilgan masofa va ideal holat</li>
+          <li class="flex items-center gap-2"><span class="text-red-500">-</span> Yuqori narx va tez arzonlashish (depresatsiya)</li>
+        </ul>
+      </div>
+
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-3">
+        <h3 class="text-white font-bold text-sm uppercase tracking-wider border-b border-neutral-800 pb-2">Ishlatilgan Avtomobil</h3>
+        <ul class="space-y-2 text-neutral-400">
+          <li class="flex items-center gap-2"><span class="text-green-500">+</span> Hamyonbop narx va kengroq tanlov</li>
+          <li class="flex items-center gap-2"><span class="text-green-500">+</span> Sekinroq qiymat yo‘qotish</li>
+          <li class="flex items-center gap-2"><span class="text-red-500">-</span> Yashirin nuqsonlar va qo‘shimcha ta'mir xavfi</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Tanlov xaridorning budjeti va tavakkalchilikka tayyorligiga bog‘liq.</div>
+  </section>
+
+  <!-- SLAYD 8: Zamonaviy Texnologiyalar -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Zamonaviy Texnologiyalar</h2>
+      <span class="text-xs text-neutral-500">08 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4">
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <i data-lucide="zap" class="w-6 h-6 text-white"></i>
+        <h3 class="text-white font-semibold text-xs">Elektromobillar</h3>
+        <p class="text-[11px] text-neutral-400">Ekologik toza, jim va arzon ekspluatatsiya.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <i data-lucide="fuel" class="w-6 h-6 text-white"></i>
+        <h3 class="text-white font-semibold text-xs">Gibrid Tizimlar</h3>
+        <p class="text-[11px] text-neutral-400">Yonilg‘i tejamkorligi va yuqori masofa zaxirasi.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <i data-lucide="cpu" class="w-6 h-6 text-white"></i>
+        <h3 class="text-white font-semibold text-xs">Autopilot va ADAS</h3>
+        <p class="text-[11px] text-neutral-400">Avariyalarni oldini oluvchi aqlli assistentlar.</p>
+      </div>
+      <div class="bg-neutral-950 p-4 rounded-xl border border-neutral-800 space-y-2">
+        <i data-lucide="monitor" class="w-6 h-6 text-white"></i>
+        <h3 class="text-white font-semibold text-xs">Multimedia</h3>
+        <p class="text-[11px] text-neutral-400">Sensor ekranlar, Apple CarPlay va Android Auto.</p>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Avtomobil sanoati jadal ravishda raqamlashtirish sari bormoqda.</div>
+  </section>
+
+  <!-- SLAYD 9: Mijozlarga Xizmat -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Mijozlarga Xizmat Ko‘rsatish Bosqichlari</h2>
+      <span class="text-xs text-neutral-500">09 / 10</span>
+    </div>
+
+    <div class="grid grid-cols-3 gap-6 relative">
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-2">
+        <div class="text-xs font-bold text-neutral-500 uppercase">1-bosqich</div>
+        <h3 class="text-white font-semibold text-sm">Konsultatsiya</h3>
+        <p class="text-xs text-neutral-400">Mijoz ehtiyojlarini aniqlash va mos modellarni taklif qilish.</p>
+      </div>
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-2">
+        <div class="text-xs font-bold text-neutral-500 uppercase">2-bosqich</div>
+        <h3 class="text-white font-semibold text-sm">Test-drayv</h3>
+        <p class="text-xs text-neutral-400">Avtomobilning dinamikasi va qulayligini amalda tekshirish.</p>
+      </div>
+      <div class="bg-neutral-950 p-5 rounded-xl border border-neutral-800 space-y-2">
+        <div class="text-xs font-bold text-neutral-500 uppercase">3-bosqich</div>
+        <h3 class="text-white font-semibold text-sm">Hujjatlashtirish</h3>
+        <p class="text-xs text-neutral-400">Shartnoma tuzish, to‘lov va kalitlarni topshirish.</p>
+      </div>
+    </div>
+
+    <div class="text-xs text-neutral-600">Yuqori servis — mijozning uzoq muddatli sodiqligi kalitidir.</div>
+  </section>
+
+  <!-- SLAYD 10: Xulosa -->
+  <section class="w-[900px] h-[500px] bg-neutral-900 border border-neutral-800 rounded-2xl p-12 flex flex-col justify-between shadow-2xl relative overflow-hidden">
+    <div class="flex justify-between items-center border-b border-neutral-800 pb-4">
+      <h2 class="text-2xl font-bold tracking-wide uppercase text-white">Xulosa</h2>
+      <span class="text-xs text-neutral-500">10 / 10</span>
+    </div>
+
+    <div class="space-y-6 max-w-xl">
+      <p class="text-lg text-neutral-200 font-light leading-relaxed">
+        Avtosalon — bu shunchaki savdo maydoni emas, balki xavfsizlik, rasmiy kafolat va zamonaviy texnologiyalarni taqdim etuvchi professional markazdir.
+      </p>
+      <div class="p-4 bg-neutral-950 border-l-2 border-white rounded-r-xl">
+        <p class="text-xs text-neutral-400">
+          To‘g‘ri tanlangan avtosalon va avtomobil sizning har bir safaringizni qulay, xavfsiz va maroqli qiladi.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex justify-between items-center border-t border-neutral-800 pt-4">
+      <span class="text-xs text-white font-bold">E'tiboringiz uchun rahmat!</span>
+      <i data-lucide="check-circle-2" class="w-6 h-6 text-white"></i>
+    </div>
+  </section>
+
+  <!-- Lucide Ikonkalarini yuklash scripti -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
+💡 Kod xususiyatlari:
+Dizayn uslubi: To'liq qora (Dark Mode), oq va kulrang tonlarda, premium uslubda tayyorlangan.
+
+Standard Slayd Olchamlari: Har bir slayd presentation formatiga mos holatda (900px kenglik va 500px balandlikda) bloklangan.
+
+Ikonkalar: Sifatli Lucide Icons kutubxonasidan foydalanilgan.
+
+Rasmlar: Unsplash platformasidan monoxrom va sifatli avtomobil rasmlari ulangan.
+
+shu codni bitta tugama qilginda bosganda boshqa etabga otsin va dizayinni chiroyliroq qilib ber
+
+Mana barcha slaydlarni bitta oynada (slayder shaklida) ko‘radigan, tugmalarni bosganda keyingi/oldingi slaydga o‘tadigan va klaviatura (strelkalar) orqali boshqariladigan zamonaviy, ultra-premium va chiroyli interaktiv versiyasi.
+
+Koddagi xususiyatlar:
+
+Interaktiv naviagtsiya: "Oldingi" / "Keyingi" tugmalari va klaviatura strelkalari (← va →) orqali slayd o'tkazish.
+
+Proqress bar va ko'rsatkich: Pastki qismida nechinchida turganingizni ko'rsatuvchi nuqtalar va progress bar.
+
+Chiroyli vizual effektlar: Slaydlar almashganda silliq paydo bo'lish (smooth fade) va yanada chuqurroq, qora-kulrang darajali (dark glassmorphism) premium dizayn.
+
+Ushbu kodni .html fayl sifatid saqlab, brauzerda ochsangiz kifoya:
+
+HTML
+<!DOCTYPE html>
+<html lang="uz" class="h-full bg-neutral-950">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avtosalon va Avtomobillar - Interaktiv Prezentatsiya</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .slide {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.4s ease-in-out;
+    }
+    .slide.active {
+      display: flex;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body class="h-full text-neutral-100 flex flex-col items-center justify-center p-4 selection:bg-neutral-800 selection:text-white">
+
+  <!-- ASOSIY SLAYDER KONTEYNERI -->
+  <div class="relative w-full max-w-5xl h-[600px] bg-neutral-900/90 border border-neutral-800/80 rounded-3xl shadow-2xl backdrop-blur-xl overflow-hidden flex flex-col">
+    
+    <!-- TEPANGI PROGRES BAR -->
+    <div class="w-full h-1 bg-neutral-800/50">
+      <div id="progressBar" class="h-full bg-white transition-all duration-300 w-[10%]"></div>
+    </div>
+
+    <!-- SLAYDLAR RO'YXATI -->
+    <div class="relative flex-1 p-8 md:p-12 overflow-y-auto">
+
+      <!-- SLAYD 1: Titul -->
+      <div class="slide active h-full flex-col justify-between relative">
+        <div class="absolute inset-0 -m-12 bg-cover bg-center opacity-25 grayscale contrast-125 rounded-3xl" style="background-image: url('https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=1200');"></div>
+        <div class="absolute inset-0 -m-12 bg-gradient-to-t from-neutral-950 via-neutral-950/70 to-transparent"></div>
+        
+        <div class="relative z-10 flex justify-between items-center">
+          <span class="text-xs font-semibold tracking-widest text-neutral-400 border border-neutral-700/80 bg-neutral-900/50 backdrop-blur px-4 py-1.5 rounded-full uppercase">Prezentatsiya</span>
+          <span class="text-xs font-medium text-neutral-500">01 / 10</span>
+        </div>
+
+        <div class="relative z-10 space-y-4 max-w-2xl">
+          <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-none">
+            AVTOSALON <br><span class="text-neutral-500">& AVTOMOBILLAR</span>
+          </h1>
+          <p class="text-neutral-400 text-base md:text-lg font-light leading-relaxed">
+            Zamonaviy avtomobil sanoati, xizmatlar va to'g'ri tanlov mezonlari bo‘yicha to‘liq qo‘llanma.
+          </p>
+        </div>
+
+        <div class="relative z-10 flex justify-between items-end border-t border-neutral-800/80 pt-4 text-xs text-neutral-500">
+          <span>Premium Auto Gallery</span>
+          <span>2026-yil</span>
+        </div>
+      </div>
+
+      <!-- SLAYD 2: Avtosalon nima? -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white flex items-center gap-2">
+            <i data-lucide="building-2" class="w-6 h-6 text-neutral-400"></i> Avtosalon nima?
+          </h2>
+          <span class="text-xs text-neutral-500">02 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-auto">
+          <div class="space-y-5">
+            <p class="text-neutral-300 leading-relaxed text-sm md:text-base">
+              <strong class="text-white font-semibold">Avtosalon</strong> — bu shunchaki avtomobil sotish joyi emas, balki mijoz va ishlab chiqaruvchi o‘rtasidagi rasmiy ko‘prikdir.
+            </p>
+            <div class="space-y-3">
+              <div class="flex items-start gap-3 bg-neutral-950/50 p-3 rounded-xl border border-neutral-800/60">
+                <i data-lucide="check-circle-2" class="text-white w-5 h-5 shrink-0 mt-0.5"></i>
+                <p class="text-xs text-neutral-400"><strong class="text-white">Rasmiylik:</strong> Ishlab chiqaruvchi kafolati va rasmiy xizmat ko‘rsatish.</p>
+              </div>
+              <div class="flex items-start gap-3 bg-neutral-950/50 p-3 rounded-xl border border-neutral-800/60">
+                <i data-lucide="check-circle-2" class="text-white w-5 h-5 shrink-0 mt-0.5"></i>
+                <p class="text-xs text-neutral-400"><strong class="text-white">Qulaylik:</strong> Bir joyning o‘zida tanlash, sinash va rasmiylashtirish.</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl overflow-hidden border border-neutral-800 shadow-lg">
+            <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=800" alt="Avtosalon" class="w-full h-56 object-cover grayscale hover:grayscale-0 transition-all duration-500">
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Asosiy vazifa: Mijozga ishonchli va xavfsiz xarid muhitini yaratish.</div>
+      </div>
+
+      <!-- SLAYD 3: Asosiy Xizmatlar -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Avtosalonning Asosiy Xizmatlari</h2>
+          <span class="text-xs text-neutral-500">03 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-auto">
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800/80 hover:border-neutral-600 transition-all space-y-3">
+            <i data-lucide="shopping-bag" class="w-8 h-8 text-white"></i>
+            <h3 class="font-bold text-white text-sm">Avtomobil sotish</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">Yangi va kafolatlangan avtomobillarni taqdim etish.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800/80 hover:border-neutral-600 transition-all space-y-3">
+            <i data-lucide="steering-wheel" class="w-8 h-8 text-white"></i>
+            <h3 class="font-bold text-white text-sm">Test-drayv</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">Xarid qilishdan oldin amalda sinab ko‘rish imkoniyati.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800/80 hover:border-neutral-600 transition-all space-y-3">
+            <i data-lucide="credit-card" class="w-8 h-8 text-white"></i>
+            <h3 class="font-bold text-white text-sm">Kredit va Lizing</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">Moslashuvchan moliyaviy shartlar va sug‘urta.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800/80 hover:border-neutral-600 transition-all space-y-3">
+            <i data-lucide="wrench" class="w-8 h-8 text-white"></i>
+            <h3 class="font-bold text-white text-sm">Servis va Xizmat</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">Ehtiyot qismlar va kafolatli texnik xizmat ko'rsatish.</p>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Barcha xizmatlar bir joyda — 360° xizmat ko‘rsatish tizimi.</div>
+      </div>
+
+      <!-- SLAYD 4: Avtomobil Turlari -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Avtomobil Kuzov Turlari</h2>
+          <span class="text-xs text-neutral-500">04 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-xs my-auto">
+          <div class="bg-neutral-950/60 p-4 rounded-xl border border-neutral-800/80 space-y-1.5">
+            <span class="text-white font-bold text-sm block">Sedan</span>
+            <p class="text-neutral-400">Klassik, 4 eshikli, shahar va oilaviy haydash uchun qulay.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-4 rounded-xl border border-neutral-800/80 space-y-1.5">
+            <span class="text-white font-bold text-sm block">Krossover</span>
+            <p class="text-neutral-400">Yo‘l klirensi baland, universal va zamonaviy shahar mashinasi.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-4 rounded-xl border border-neutral-800/80 space-y-1.5">
+            <span class="text-white font-bold text-sm block">SUV (Yo‘ltanlamas)</span>
+            <p class="text-neutral-400">Yuqori o‘tuvchanlik, to‘liq tortish (4x4) va baquvvat kuzov.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-4 rounded-xl border border-neutral-800/80 space-y-1.5">
+            <span class="text-white font-bold text-sm block">Hatchback</span>
+            <p class="text-neutral-400">Ixcham, orqa eshigi yuqoriga ochiladigan, tirbandlikka mos.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-4 rounded-xl border border-neutral-800/80 space-y-1.5">
+            <span class="text-white font-bold text-sm block">Miniven</span>
+            <p class="text-neutral-400">Katta oilalar va uzoq masofali guruhli safarlar uchun sig‘imli.</p>
+          </div>
+          <div class="bg-neutral-950/30 p-4 rounded-xl border border-neutral-800/40 flex items-center justify-center">
+            <i data-lucide="car" class="w-8 h-8 text-neutral-600"></i>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Ehtiyoj va turmush tarziga qarab to‘g‘ri kuzov turini tanlash muhim.</div>
+      </div>
+
+      <!-- SLAYD 5: Mashhur Brendlar -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Mashhur Avtomobil Brendlari</h2>
+          <span class="text-xs text-neutral-500">05 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-auto">
+          <div class="border border-neutral-800/80 p-4 rounded-2xl bg-neutral-950/40">
+            <h3 class="text-white font-bold">Chevrolet</h3>
+            <p class="text-xs text-neutral-400 mt-1">O‘zbekistonda eng ommabop va hamyonbop brend.</p>
+          </div>
+          <div class="border border-neutral-800/80 p-4 rounded-2xl bg-neutral-950/40">
+            <h3 class="text-white font-bold">BYD</h3>
+            <p class="text-xs text-neutral-400 mt-1">Yangi energiya va elektromobillar bo‘yicha etakchi.</p>
+          </div>
+          <div class="border border-neutral-800/80 p-4 rounded-2xl bg-neutral-950/40">
+            <h3 class="text-white font-bold">Toyota</h3>
+            <p class="text-xs text-neutral-400 mt-1">Afsonaviy ishonchlilik va yuqori qayta sotish qiymati.</p>
+          </div>
+          <div class="border border-neutral-800/80 p-4 rounded-2xl bg-neutral-950/40">
+            <h3 class="text-white font-bold">Mercedes-Benz</h3>
+            <p class="text-xs text-neutral-400 mt-1">Premium lyuks, qulaylik va texnologiyalar ramzi.</p>
+          </div>
+          <div class="border border-neutral-800/80 p-4 rounded-2xl bg-neutral-950/40">
+            <h3 class="text-white font-bold">BMW</h3>
+            <p class="text-xs text-neutral-400 mt-1">Haydash zavqi, dinamika va sportcha xarakter.</p>
+          </div>
+          <div class="border border-neutral-800/80 p-4 rounded-2xl bg-neutral-950/40">
+            <h3 class="text-white font-bold">Kia</h3>
+            <p class="text-xs text-neutral-400 mt-1">Zamonaviy dizayn va boy komplektatsiya.</p>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Bozor har bir segment uchun xilma-xil tanlovlarni taklif etadi.</div>
+      </div>
+
+      <!-- SLAYD 6: Avtomobil Tanlash -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Avtomobil Tanlash Mezonlari</h2>
+          <span class="text-xs text-neutral-500">06 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-auto">
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <div class="bg-white text-black font-bold text-xs px-2.5 py-1 rounded-md mt-1">01</div>
+              <div>
+                <h3 class="text-sm font-bold text-white">Bujet va xarajatlar</h3>
+                <p class="text-xs text-neutral-400">Xarid narxi, yonilg‘i, sug‘urta va servis xarajatlari.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="bg-white text-black font-bold text-xs px-2.5 py-1 rounded-md mt-1">02</div>
+              <div>
+                <h3 class="text-sm font-bold text-white">Foydalanish maqsadi</h3>
+                <p class="text-xs text-neutral-400">Shahar ichi, uzoq safarlar yoki yuk tashish ehtiyoji.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="bg-white text-black font-bold text-xs px-2.5 py-1 rounded-md mt-1">03</div>
+              <div>
+                <h3 class="text-sm font-bold text-white">Xavfsizlik tizimlari</h3>
+                <p class="text-xs text-neutral-400">Yostiqchalar, tormoz tizimi va aqlli assistentlar.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-neutral-950 p-6 rounded-2xl border border-neutral-800 text-center space-y-3">
+            <i data-lucide="shield-check" class="w-10 h-10 text-white mx-auto"></i>
+            <p class="text-xs text-neutral-300 italic">"To‘g‘ri tanlangan avtomobil — bu xavfsizlik va moliyaviy barqarorlik garovidir."</p>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Har bir omilni puxta tahlil qilish tavsiya etiladi.</div>
+      </div>
+
+      <!-- SLAYD 7: Yangi va Ishlatilgan -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Yangi vs Ishlatilgan Avtomobil</h2>
+          <span class="text-xs text-neutral-500">07 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs my-auto">
+          <div class="bg-neutral-950/60 p-6 rounded-2xl border border-neutral-800 space-y-4">
+            <h3 class="text-white font-bold text-sm uppercase border-b border-neutral-800 pb-2">Yangi Avtomobil</h3>
+            <ul class="space-y-2.5 text-neutral-400">
+              <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">+</span> Rasmiy zavod kafolati</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">+</span> Ideal holat va nol yurgan masofa</li>
+              <li class="flex items-center gap-2"><span class="text-rose-500 font-bold">-</span> Yuqori narx va dastlabki yillarda tez arzonlashish</li>
+            </ul>
+          </div>
+
+          <div class="bg-neutral-950/60 p-6 rounded-2xl border border-neutral-800 space-y-4">
+            <h3 class="text-white font-bold text-sm uppercase border-b border-neutral-800 pb-2">Ishlatilgan Avtomobil</h3>
+            <ul class="space-y-2.5 text-neutral-400">
+              <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">+</span> Hamyonbop narx va kengroq tanlov</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400 font-bold">+</span> Sekinroq qiymat yo‘qotish</li>
+              <li class="flex items-center gap-2"><span class="text-rose-500 font-bold">-</span> Yashirin nuqsonlar va ta'mir xavfi</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Tanlov xaridorning budjeti va tavakkalchilikka tayyorligiga bog‘liq.</div>
+      </div>
+
+      <!-- SLAYD 8: Zamonaviy Texnologiyalar -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Zamonaviy Texnologiyalar</h2>
+          <span class="text-xs text-neutral-500">08 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-auto">
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <i data-lucide="zap" class="w-6 h-6 text-white"></i>
+            <h3 class="text-white font-bold text-xs">Elektromobillar</h3>
+            <p class="text-[11px] text-neutral-400">Ekologik toza va tejamkor ekspluatatsiya.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <i data-lucide="fuel" class="w-6 h-6 text-white"></i>
+            <h3 class="text-white font-bold text-xs">Gibridlar</h3>
+            <p class="text-[11px] text-neutral-400">Yonilg‘i tejamkorligi va yuqori masofa zaxirasi.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <i data-lucide="cpu" class="w-6 h-6 text-white"></i>
+            <h3 class="text-white font-bold text-xs">ADAS Assistentlar</h3>
+            <p class="text-[11px] text-neutral-400">Avariyalarni oldini oluvchi aqlli tizimlar.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <i data-lucide="monitor" class="w-6 h-6 text-white"></i>
+            <h3 class="text-white font-bold text-xs">Multimedia</h3>
+            <p class="text-[11px] text-neutral-400">Katta ekranlar va simsiz integratsiya.</p>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Avtomobil sanoati jadal ravishda raqamlashtirish sari bormoqda.</div>
+      </div>
+
+      <!-- SLAYD 9: Mijozlarga Xizmat -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Xizmat Ko‘rsatish Bosqichlari</h2>
+          <span class="text-xs text-neutral-500">09 / 10</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-auto">
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <span class="text-[10px] font-bold tracking-widest text-neutral-500 uppercase">1-bosqich</span>
+            <h3 class="text-white font-bold text-sm">Konsultatsiya</h3>
+            <p class="text-xs text-neutral-400">Mijoz ehtiyojlarini aniqlash va mos modellarni tanlash.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <span class="text-[10px] font-bold tracking-widest text-neutral-500 uppercase">2-bosqich</span>
+            <h3 class="text-white font-bold text-sm">Test-drayv</h3>
+            <p class="text-xs text-neutral-400">Avtomobilning qulayligini amalda tekshirish.</p>
+          </div>
+          <div class="bg-neutral-950/60 p-5 rounded-2xl border border-neutral-800 space-y-2">
+            <span class="text-[10px] font-bold tracking-widest text-neutral-500 uppercase">3-bosqich</span>
+            <h3 class="text-white font-bold text-sm">Hujjatlashtirish</h3>
+            <p class="text-xs text-neutral-400">Shartnoma tuzish, to‘lov va kalitlarni topshirish.</p>
+          </div>
+        </div>
+
+        <div class="text-xs text-neutral-500 border-t border-neutral-800/80 pt-4">Yuqori servis — mijozning uzoq muddatli sodiqligi kalitidir.</div>
+      </div>
+
+      <!-- SLAYD 10: Xulosa -->
+      <div class="slide h-full flex-col justify-between">
+        <div class="flex justify-between items-center border-b border-neutral-800/80 pb-4">
+          <h2 class="text-2xl font-bold uppercase tracking-wider text-white">Xulosa</h2>
+          <span class="text-xs text-neutral-500">10 / 10</span>
+        </div>
+
+        <div class="space-y-6 max-w-xl my-auto">
+          <p class="text-lg md:text-xl text-neutral-200 font-light leading-relaxed">
+            Avtosalon — bu shunchaki savdo maydoni emas, balki xavfsizlik, rasmiy kafolat va zamonaviy texnologiyalarni taqdim etuvchi professional markazdir.
+          </p>
+          <div class="p-4 bg-neutral-950 border-l-2 border-white rounded-r-2xl">
+            <p class="text-xs text-neutral-400">
+              To‘g‘ri tanlangan avtosalon va avtomobil sizning har bir safaringizni qulay, xavfsiz va maroqli qiladi.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-neutral-800/80 pt-4">
+          <span class="text-xs text-white font-bold">E'tiboringiz uchun rahmat!</span>
+          <i data-lucide="check-circle-2" class="w-5 h-5 text-white"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BASHQARUV TUGMALARI (BOTOM NAV) -->
+    <div class="bg-neutral-950/80 border-t border-neutral-800/80 px-8 py-4 flex items-center justify-between">
+      <button id="prevBtn" onclick="changeSlide(-1)" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-white text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
+        <i data-lucide="chevron-left" class="w-4 h-4"></i> Oldingi
+      </button>
+
+      <!-- INDICATOR DOTS -->
+      <div id="dotsContainer" class="flex items-center gap-1.5"></div>
+
+      <button id="nextBtn" onclick="changeSlide(1)" class="flex items-center gap-2 px-5 py-2 rounded-xl bg-white hover:bg-neutral-200 text-black text-xs font-bold transition">
+        Keyingi <i data-lucide="chevron-right" class="w-4 h-4"></i>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- JS LOGIKA -->
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const dotsContainer = document.getElementById('dotsContainer');
+    const progressBar = document.getElementById('progressBar');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    // Nuqtalarni (dots) yaratish
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('button');
+      dot.className = `w-2 h-2 rounded-full transition-all ${i === 0 ? 'bg-white w-5' : 'bg-neutral-700'}`;
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+    }
+
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+
+      // Update progress bar
+      const progress = ((currentSlide + 1) / totalSlides) * 100;
+      progressBar.style.width = `${progress}%`;
+
+      // Update dots
+      Array.from(dotsContainer.children).forEach((dot, index) => {
+        if (index === currentSlide) {
+          dot.className = 'w-5 h-2 rounded-full bg-white transition-all';
+        } else {
+          dot.className = 'w-2 h-2 rounded-full bg-neutral-700 transition-all';
+        }
+      });
+
+      // Update button states
+      prevBtn.disabled = currentSlide === 0;
+      if (currentSlide === totalSlides - 1) {
+        nextBtn.innerHTML = `Tugatish <i data-lucide="check" class="w-4 h-4"></i>`;
+      } else {
+        nextBtn.innerHTML = `Keyingi <i data-lucide="chevron-right" class="w-4 h-4"></i>`;
+      }
+      lucide.createIcons();
+    }
+
+    function changeSlide(direction) {
+      currentSlide += direction;
+      if (currentSlide < 0) currentSlide = 0;
+      if (currentSlide >= totalSlides) currentSlide = totalSlides - 1;
+      updateSlide();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateSlide();
+    }
+
+    // Klaviatura strelkalari bilan boshqarish
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') changeSlide(1);
+      if (e.key === 'ArrowLeft') changeSlide(-1);
+    });
+
+    lucide.createIcons();
+    updateSlide();
+  </script>
+</body>
+</html>
+manashunga oxshatib yasa nomi AVTO PREMIUM bolsin
+
+Siz taqdim etgan rasm darsligi (rasmdagi UzAuto Savdo rasmiy veb-sayti) dizayniga moslashtirilgan holda AVTO PREMIUM rasmiy dilerlik sayti html kodi tayyorlandi!
+
+Visual stil, banner va ranglar kontrasti aynan rasmdagidek to‘q ko‘k (navy blue), oq va och ko‘k ranglar kombinatsiyasida yaratildi.
+
+Значок HTML-файла
+avto_premium
+ HTML 
+Открыть
+🌟 Dizaynga kiritilgan asosiy elementlar:
+Nomi va Logotip: AVTO PREMIUM deb o'zgartirildi va zamonaviy dilerlik logotipi qo'shildi.
+
+Top Announcement Bar: Tepada rasmiy aksiya va e'lonlar uchun ko'k rangli alohida tasmonitoring paneli.
+
+Hero Banner:
+
+Ayni rasmdagi kabi Chevrolet Cobalt 0% (Foizsiz) muddatli to'lov aksiyasi aks ettirildi.
+
+Foiz stavkasi (0%), Boshlang'ich to'lov (65%) va Muddati (12 Oy) bo'limlari aniq va yirik shriftlarda vizualizatsiya qilindi.
+
+Chevrolet va Ipoteka-bank hamkorlik logotiplari o'rniga zamonaviy ko'rinish berildi.
+
+Modellar ro'yxati (Katalog): Chevrolet Cobalt, BYD Song Plus va Tracker kabi ommabop avtomobillarning narxlari va qulayliklari bilan kartochka shaklidagi bloki joylashtirildi.
+
+Moslashuvchanlik (Responsive): Telefon, planshet va kompyuter ekranlariga moslashuvchan Tailwind CSS orqali ishlandi.
+
+Faylni .html formatida yuklab olib, istalgan brauzerda ochib ko'rishingiz mumkin!
+
+
+
+
+Gemini не человек и может ошибаться. Его ответы нужно проверять.
+
+Выполняю анализ
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AVTO PREMIUM - Rasmiy Dilerlik Markazi</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-white min-h-screen flex flex-col font-sans">
+
+  <!-- TOP ANNOUNCEMENT BANNER -->
+  <div class="bg-[#03254c] text-sky-200 text-xs sm:text-sm py-2 px-4 text-center border-b border-blue-900/40 flex items-center justify-center gap-2">
+    <span class="bg-sky-500/20 text-sky-300 border border-sky-400/30 text-[10px] font-bold px-2 py-0.5 rounded">YANGILIK</span>
+    <span>Aksiya davom etmoqda: Imtiyozli kredit va 0% foizsiz muddatli to'lov variantlari mavjud!</span>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="bg-[#002B5B] border-b border-blue-900/60 sticky top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <div class="flex items-center gap-3">
+        <div class="bg-gradient-to-tr from-sky-500 to-blue-600 text-white font-black text-2xl tracking-wider p-2 rounded-xl shadow-md border border-sky-400/30 flex items-center gap-1">
+          <i data-lucide="car" class="w-7 h-7"></i>
+        </div>
+        <div>
+          <span class="text-2xl font-extrabold tracking-tight text-white block leading-none">AVTO <span class="text-sky-400">PREMIUM</span></span>
+          <span class="text-[10px] tracking-widest text-blue-200 uppercase font-medium">Rasmiy Dilerlik Markazi</span>
+        </div>
+      </div>
+
+      <!-- NAV LINKS -->
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-200">
+        <a href="#home" class="text-sky-400 transition hover:text-white flex items-center gap-1">Bosh sahifa</a>
+        <a href="#models" class="hover:text-sky-400 transition">Modellar</a>
+        <a href="#service" class="hover:text-sky-400 transition">Avtoservis</a>
+        <a href="#testdrive" class="hover:text-sky-400 transition">Test-drayv</a>
+        <a href="#credit" class="hover:text-sky-400 transition">Kredit va Lizing</a>
+      </nav>
+
+      <!-- RIGHT CONTROLS -->
+      <div class="flex items-center gap-4">
+        <a href="#login" class="flex items-center gap-2 text-sm font-semibold text-white bg-blue-900/60 hover:bg-blue-800 border border-blue-700/60 px-4 py-2.5 rounded-xl transition">
+          <i data-lucide="user" class="w-4 h-4 text-sky-400"></i>
+          <span>Kirish</span>
+        </a>
+        <div class="flex items-center gap-1 text-xs font-bold bg-blue-950 border border-blue-800/80 px-2.5 py-2 rounded-xl text-sky-300">
+          <i data-lucide="globe" class="w-4 h-4 text-sky-400"></i>
+          <span>UZ</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- HERO BANNER SECTION (UzAuto style image layout) -->
+  <section class="relative bg-gradient-to-r from-slate-950 via-slate-900 to-blue-950 overflow-hidden border-b border-slate-800">
+    <!-- Background backdrop car image with gradient overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=1600" alt="Avto Premium Car" class="w-full h-full object-cover object-right opacity-40">
+      <div class="absolute inset-0 bg-gradient-to-r from-[#001733] via-[#001733]/90 to-transparent"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+      
+      <!-- LEFT PROMOTION & OFFER DETAILS -->
+      <div class="lg:col-span-7 space-y-8">
+        
+        <!-- BRAND LOGOS BADGE -->
+        <div class="flex items-center gap-6">
+          <div class="flex items-center gap-2 bg-slate-900/80 backdrop-blur border border-slate-700/60 px-4 py-2 rounded-xl">
+            <i data-lucide="shield-check" class="w-6 h-6 text-sky-400"></i>
+            <span class="text-xs font-bold tracking-wider text-slate-200">CHEVROLET & BYD OFFICIAL</span>
+          </div>
+          <div class="flex items-center gap-2 bg-slate-900/80 backdrop-blur border border-slate-700/60 px-4 py-2 rounded-xl">
+            <i data-lucide="landmark" class="w-6 h-6 text-emerald-400"></i>
+            <span class="text-xs font-bold tracking-wider text-slate-200">IPOTEKA-BANK KREDIT</span>
+          </div>
+        </div>
+
+        <!-- MAIN TITLE OFFER -->
+        <div class="space-y-3">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight uppercase leading-none">
+            CHEVROLET COBALT <br>
+            <span class="text-sky-400">0% (FOIZSIZ)</span> MUDDATLI TO‘LOV!
+          </h1>
+          <p class="text-slate-300 text-sm sm:text-base max-w-xl font-medium">
+            Eng ommabop avtomobil endi yanada hamyonbop shartlar bilan! Boshlang'ich to'lovni amalga oshiring va 12 oy davomida ortiqcha foizlarsiz to'lang.
+          </p>
+        </div>
+
+        <!-- STATS & METRICS GRID -->
+        <div class="grid grid-cols-3 gap-4 pt-2">
+          
+          <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-2xl backdrop-blur">
+            <span class="text-xs font-semibold text-slate-400 block uppercase">Foiz stavkasi:</span>
+            <span class="text-3xl sm:text-4xl font-extrabold text-sky-400">0%</span>
+          </div>
+
+          <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-2xl backdrop-blur">
+            <span class="text-xs font-semibold text-slate-400 block uppercase">Boshlang‘ich to‘lov:</span>
+            <span class="text-3xl sm:text-4xl font-extrabold text-white">65%</span>
+          </div>
+
+          <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-2xl backdrop-blur">
+            <span class="text-xs font-semibold text-slate-400 block uppercase">Muddati:</span>
+            <span class="text-3xl sm:text-4xl font-extrabold text-white">12 <span class="text-sm font-normal text-slate-400">OY</span></span>
+          </div>
+
+        </div>
+
+        <!-- CTA BUTTONS -->
+        <div class="flex flex-wrap items-center gap-4 pt-2">
+          <a href="#order" class="bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-bold text-sm px-8 py-4 rounded-xl shadow-lg shadow-sky-500/20 transition flex items-center gap-2">
+            <span>Ariza Qoldirish</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="#testdrive" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm px-6 py-4 rounded-xl border border-slate-700 transition flex items-center gap-2">
+            <i data-lucide="steering-wheel" class="w-4 h-4 text-sky-400"></i>
+            <span>Test-drayvga Yozilish</span>
+          </a>
+        </div>
+
+        <p class="text-[11px] text-slate-400 italic">
+          *Foiz stavkasi tanlangan to‘lov muddati va moliyalashtirish shartlariga qarab bank tomonidan belgilanadi.
+        </p>
+
+      </div>
+
+      <!-- RIGHT CAR SHOWCASE IMAGE -->
+      <div class="lg:col-span-5 relative flex justify-center">
+        <div class="relative w-full max-w-lg">
+          <!-- Subtle glow ring -->
+          <div class="absolute -inset-4 bg-sky-500/20 rounded-full blur-3xl"></div>
+          
+          <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1000" alt="Avto Premium Cobalt Showcase" class="relative z-10 w-full rounded-2xl border border-slate-700 shadow-2xl object-cover hover:scale-105 transition-transform duration-500">
+
+          <div class="absolute bottom-4 left-4 right-4 z-20 bg-slate-900/90 backdrop-blur border border-slate-700/80 p-3 rounded-xl flex items-center justify-between">
+            <div>
+              <span class="text-xs font-bold text-white block">Chevrolet Cobalt GX-Style</span>
+              <span class="text-[10px] text-slate-400">Mavjud ranglar: Oq, Qora, Kulrang</span>
+            </div>
+            <span class="text-xs font-extrabold text-sky-400 bg-sky-500/10 border border-sky-400/20 px-2.5 py-1 rounded-lg">Omborda bor</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MODELLAR RO'YXATI SECTION -->
+  <section id="models" class="py-16 bg-slate-900 flex-1">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 border-b border-slate-800 pb-6">
+        <div>
+          <span class="text-xs font-bold text-sky-400 uppercase tracking-widest">Katalog</span>
+          <h2 class="text-3xl font-extrabold text-white mt-1">MODELLAR RO'YXATI</h2>
+        </div>
+        <p class="text-sm text-slate-400 max-w-md mt-2 md:mt-0">
+          AVTO PREMIUM salonida taklif etilayotgan eng so'nggi rusumdagi avtomobillar bilan tanishing.
+        </p>
+      </div>
+
+      <!-- CAR CARDS GRID -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- CARD 1 -->
+        <div class="bg-slate-950 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition group shadow-lg">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800" alt="Cobalt" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 right-3 bg-sky-500 text-slate-950 font-black text-[10px] px-2.5 py-1 rounded-md uppercase">0% Muddatli to'lov</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div>
+              <h3 class="text-xl font-bold text-white">Chevrolet Cobalt</h3>
+              <p class="text-xs text-slate-400">1.5 L Engine • Avtomat uzatish qutisi</p>
+            </div>
+            <div class="flex justify-between items-center text-xs text-slate-300 border-t border-b border-slate-900 py-3">
+              <span>Boshlang'ich: <strong class="text-white">65%</strong></span>
+              <span>Muddat: <strong class="text-white">12 Oy</strong></span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block">Boshlang'ich narxi</span>
+                <span class="text-lg font-bold text-sky-400">147 000 000 UZS</span>
+              </div>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white p-2.5 rounded-xl transition">
+                <i data-lucide="chevron-right" class="w-5 h-5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="bg-slate-950 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition group shadow-lg">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=800" alt="BYD Song Plus" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 right-3 bg-emerald-500 text-slate-950 font-black text-[10px] px-2.5 py-1 rounded-md uppercase">Elektro / Gibrid</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div>
+              <h3 class="text-xl font-bold text-white">BYD Song Plus DM-i</h3>
+              <p class="text-xs text-slate-400">1.5 L Plug-in Hybrid • DM-i Tizimi</p>
+            </div>
+            <div class="flex justify-between items-center text-xs text-slate-300 border-t border-b border-slate-900 py-3">
+              <span>Masofa: <strong class="text-white">1100 km</strong></span>
+              <span>Kafolat: <strong class="text-white">6 Yil</strong></span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block">Boshlang'ich narxi</span>
+                <span class="text-lg font-bold text-sky-400">368 000 000 UZS</span>
+              </div>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white p-2.5 rounded-xl transition">
+                <i data-lucide="chevron-right" class="w-5 h-5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="bg-slate-950 rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition group shadow-lg">
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800" alt="Tracker 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 right-3 bg-amber-500 text-slate-950 font-black text-[10px] px-2.5 py-1 rounded-md uppercase">Aksiya</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div>
+              <h3 class="text-xl font-bold text-white">Chevrolet Tracker 2</h3>
+              <p class="text-xs text-slate-400">1.2 L Turbo • Premier Komplektatsiya</p>
+            </div>
+            <div class="flex justify-between items-center text-xs text-slate-300 border-t border-b border-slate-900 py-3">
+              <span>Quvvat: <strong class="text-white">132 O.K.</strong></span>
+              <span>Kredit: <strong class="text-white">Mavjud</strong></span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block">Boshlang'ich narxi</span>
+                <span class="text-lg font-bold text-sky-400">225 000 000 UZS</span>
+              </div>
+              <button class="bg-blue-600 hover:bg-blue-500 text-white p-2.5 rounded-xl transition">
+                <i data-lucide="chevron-right" class="w-5 h-5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-white">AVTO PREMIUM</span>
+        <span>© 2026 Barcha huquqlar himoyalangan.</span>
+      </div>
+      <div class="flex items-center space-x-6 text-slate-400">
+        <a href="#" class="hover:text-white transition">Maxfiylik siyosati</a>
+        <a href="#" class="hover:text-white transition">Foydalanish shartlari</a>
+        <a href="#" class="hover:text-white transition">Aloqa</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
+avto_premium.html
+Показан объект "avto_premium.html".
